@@ -1,0 +1,96 @@
+header {
+    background: linear-gradient(to right, #0055A4, #FF0000);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-container {
+    background-color: #0055A4;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 32px;
+    margin: 0;
+}
+
+.btn-back {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-back:hover {
+    background-color: #fff;
+    color: #0055A4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background: linear-gradient(to right, #488cc6, #df5d5d);
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card p {
+    font-style: italic;
+    color: white;
+}
+
+.birth-date {
+    font-size: 12px;
+    font-style: italic;
+    display: block;
+    margin-top: 5px;
+    color: white;
+}
+
+.achievements {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.achievements li {
+    margin-bottom: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.card p, .card ul {
+    margin-bottom: 10px;
+}
+
+.card hr {
+    border: 1px solid white;
+    margin: 10px 0;
+}

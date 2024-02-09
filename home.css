@@ -1,0 +1,39 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.info-du-moment {
+    background: linear-gradient(to right, #2b7bc5, #fc4545);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: calc(100% - 40px);
+}
+
+.info-du-moment h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.info-du-moment img {
+    max-width: 100%;
+    margin: 0 auto 15px;
+}
+
+.p1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.p2 {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: white;
+}

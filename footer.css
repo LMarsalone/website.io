@@ -1,0 +1,24 @@
+footer {
+    background: linear-gradient(to right, #0055A4, #FF0000);
+    color: #fff;
+    padding: 8px 20px;
+}
+
+.footer-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    text-align: left;
+}
+
+.made-by {
+    font-size: 14px;
+    text-align: right;
+}
